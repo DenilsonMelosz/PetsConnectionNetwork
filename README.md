@@ -34,7 +34,7 @@ O sistema conta com quatro áreas principais:
 | Formulários | React Hook Form |
 | Rotas | React Router DOM 7+ |
 | Animações | tailwindcss-animate, tw-animate-css |
-| Utilidades | React Hot Toast, React Google ReCAPTCHA |
+| Utilidades | React Hot Toast, React Google ReCAPTCHA,  Cloudflare |
 
 ---
 
