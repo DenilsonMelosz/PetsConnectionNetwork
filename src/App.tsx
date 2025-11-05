@@ -7,6 +7,7 @@ import PoliticasPage from "@/components/pages/PoliticasPage"
 import EsqueciSenhaPage from "@/components/pages/EsqueciSenhaPage"
 import LandingPage from "@/components/pages/LandingPage"
 import SaibaMais from "@/components/pages/SaibaMais"
+import ProfilePage from "@/components/pages/ProfilePage"
 
 
 
@@ -21,6 +22,8 @@ function App() {
         <Route path="/saibamais" element={<SaibaMais />} />
         <Route path="/termos" element={<TermosPage />} />
         <Route path="/politicas" element={<PoliticasPage />} />
+        <Route path="/profile" element={<ProfilePage />} />
+
 
 
         {/* <Route

@@ -90,7 +90,7 @@ const LandingPage: React.FC = () => {
                   Entrar
                 </Button>
               </Link>
-              <Link to="/cadastro">
+              <Link to="/register">
                 <Button className="bg-orange-500 hover:bg-orange-600 text-white px-3 sm:px-4 md:px-5 lg:px-6 py-1.5 sm:py-2 text-sm md:text-base lg:text-lg font-semibold rounded-full cursor-pointer">
                   Cadastrar
                 </Button>

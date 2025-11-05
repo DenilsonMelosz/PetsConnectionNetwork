@@ -9,7 +9,7 @@ export function Unauthorized() {
       <h1 className="text-3xl font-bold text-red-600">Acesso Negado</h1>
       <p className="text-gray-700 mt-4">Você não tem permissão para acessar esta página.</p>
         <button
-        onClick={() => navigate("/home")}
+        onClick={() => navigate("/")}
         className="mt-6 px-6 py-2 text-white bg-red-600 rounded-lg hover:bg-green-500 transition"
       >
         Voltar para Home
