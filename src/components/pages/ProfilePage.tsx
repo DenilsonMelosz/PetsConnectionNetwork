@@ -1,7 +1,6 @@
 import { useState } from "react"
 import { Link } from "react-router-dom"
 import {
-  User,
   Mail,
   MapPin,
   Camera,
@@ -328,7 +327,7 @@ function EditProfileModal({ profile, onClose, onSave }: {
   const [name, setName] = useState(profile.name)
   const [bio, setBio] = useState(profile.bio || "")
   const [location, setLocation] = useState(profile.location || "")
-  const [avatar, setAvatar] = useState(profile.avatar || "")
+  const [avatar] = useState(profile.avatar || "")
 
   const handleSave = () => {
     onSave({ name, bio, location, avatar })

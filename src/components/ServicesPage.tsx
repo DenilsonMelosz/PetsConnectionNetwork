@@ -1,11 +1,11 @@
 import { useState, useRef } from "react"
-import { Link } from "react-router-dom"
+// import { Link } from "react-router-dom"
 import { 
-  X, MapPin, Phone, Star, MessageCircle, Clock, Briefcase, Plus, 
-  Search, ArrowRight, Sparkles, Check, Upload, Heart, Shield
+  X, MapPin, Phone, Star, MessageCircle, Briefcase, Plus, 
+  Search, ArrowRight, Sparkles, Upload, Heart, Shield
 } from "lucide-react"
 import Navbar, { type Notification } from "../components/Navbar"
-import { Badge } from "../components/feed/BaseCard"
+// import { Badge } from "../components/feed/BaseCard"
 import logo from "@/assets/Logo_PCN.png"
 
 // Types
