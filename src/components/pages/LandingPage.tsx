@@ -121,7 +121,7 @@ const LandingPage: React.FC = () => {
                   <h2 className="text-lg sm:text-xl md:text-2xl font-bold text-gray-800 mb-3 sm:mb-4">
                     Pré-lançamento em:
                   </h2>
-                  <CountdownTimer targetDate="2025-12-01T00:00:00" />
+                  <CountdownTimer targetDate="2026-10-01T12:00:00" />
                 </div>
               </Card>
 

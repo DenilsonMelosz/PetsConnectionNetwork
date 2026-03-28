@@ -8,6 +8,9 @@ import EsqueciSenhaPage from "@/components/pages/EsqueciSenhaPage"
 import LandingPage from "@/components/pages/LandingPage"
 import SaibaMais from "@/components/pages/SaibaMais"
 import ProfilePage from "@/components/pages/ProfilePage"
+import FeedPage from "@/components/FeedPage"
+import EventsPage from "@/components/EventsPage"
+import ServicesPage from "@/components/ServicesPage"
 
 
 
@@ -22,7 +25,11 @@ function App() {
         <Route path="/saibamais" element={<SaibaMais />} />
         <Route path="/termos" element={<TermosPage />} />
         <Route path="/politicas" element={<PoliticasPage />} />
-        <Route path="/profile" element={<ProfilePage />} />
+        <Route path="/perfil" element={<ProfilePage />} />
+        <Route path="/feed" element={<FeedPage />} />
+        <Route path="/eventos" element={<EventsPage />} />
+        <Route path="/servicos" element={<ServicesPage />} />
+
 
 
 
