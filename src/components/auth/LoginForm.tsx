@@ -122,7 +122,7 @@ export function LoginForm() {
       <div className="mt-3 sm:mt-4 text-center">
         <p className="text-gray-600 text-xs">
           Novo por aqui?{" "}
-          <a href="/register" className="text-orange-500 hover:text-orange-600 font-medium">
+          <a href="/feed" className="text-orange-500 hover:text-orange-600 font-medium">
             Cadastre-se grátis!
           </a>
         </p>
